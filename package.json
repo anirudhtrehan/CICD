@@ -1,0 +1,25 @@
+{
+  "name": "Autoupdate",
+  "version": "3.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "build": "electron-builder build --win --publish never",
+  "deploy": "electron-builder build --win --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-builder": "^22.9.1"
+  },
+  
+  "repository": {
+    "type" : "git",
+    "url" : "https://deshmukhsamriddhi0687@dev.azure.com/deshmukhsamriddhi0687/CICD/_git/CICD"
+  }
+}

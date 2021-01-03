@@ -1,0 +1,4 @@
+appId: com.example.ElectronAutoUpdate
+publish:
+  provider: azure
+  token: pf6377r5bxgnvwo2t4b3cr7bqpdyt6d5tflxjyg2dbhpcelzprdq
